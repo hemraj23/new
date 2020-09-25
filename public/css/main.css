@@ -1,0 +1,46 @@
+@font-face {
+  font-family: "hk-grotesk.regular";
+  src: url("fonts/hk-grotesk.regular.ttf");
+  src: local("fonts/hk-grotesk.regular.ttf");
+  src: url("fonts/hk-grotesk.regular.ttf") format("truetype");
+}
+
+body {
+  font-family: "hk-grotesk.regular";
+}
+
+header {
+  background: #3F51B5;
+  padding: .5rem;
+}
+
+header .form-group {
+  margin-bottom: 0;
+}
+
+.videoContainer {
+  width: 100%;
+  float: left;
+}
+
+.relativelistMain {
+  background: #6f6f6f;
+  padding: 10px;
+}
+
+.latestEpisodeMain {
+  padding: 10px;
+  background: #1c1d1d;
+}
+
+.latestEpisodeMain h4 {
+  color: #ffffff;
+  padding-bottom: 15px;
+  padding-top: 5px;
+  text-align: left;
+}
+
+.video-item .content .header {
+  color: #ffffff;
+}
+/*# sourceMappingURL=main.css.map */
