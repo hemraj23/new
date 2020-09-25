@@ -1,0 +1,59 @@
+$colors:(
+    darkGrey:#6f6f6f,
+    white:#ffffff,
+    black:#1c1d1d,
+    royalBlue:#3F51B5
+);
+    
+
+@font-face{
+    font-family: "hk-grotesk.regular";
+    src: url('fonts/hk-grotesk.regular.ttf');
+    src: local('fonts/hk-grotesk.regular.ttf');
+    src: url('fonts/hk-grotesk.regular.ttf') format('truetype');
+}
+
+body{
+    font-family: "hk-grotesk.regular";
+}
+
+header{
+    background:map-get($colors , royalBlue);
+    padding: .5rem;
+
+    .form-group{
+        margin-bottom: 0;
+    }
+}
+.videoContainer{
+    width:100%;
+    float: left;
+}
+
+.relativelistMain{
+    background:map-get($colors , darkGrey);
+    padding:10px;
+}
+
+.latestEpisodeMain{
+    padding:10px;
+    background:map-get($colors , black);
+
+    h4{
+        color:map-get($colors , white);
+        padding-bottom: 15px;
+        padding-top: 5px;
+        text-align: left;
+    }
+}
+
+
+.video-item{
+
+    .content{
+
+        .header{
+            color:map-get($colors , white);
+        }
+    }
+}
